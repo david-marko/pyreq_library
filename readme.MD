@@ -17,3 +17,6 @@ To install, you require 'requests' and 'pycurl' libraries.
 
 # Reference
 https://github.com/svanoort/python-client-benchmarks
+
+# Issues
+MacOX uses LibreSSL as default instead of OpenSSL. This may affect your installation process. You can fix this by using 'brew install openssl' 
